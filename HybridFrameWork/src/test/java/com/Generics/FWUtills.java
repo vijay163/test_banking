@@ -1,6 +1,7 @@
 package com.Generics;
 
 import java.awt.Robot;
+
 import java.io.File;
 import java.io.FileInputStream;
 
@@ -17,9 +18,19 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+/**
+ * Vijay
+ * @author Admin
+ *
+ */
 
  abstract public class FWUtills extends BaseClass implements IAutoConstants
 {
+	 /**
+	  * this method is used for WebdriverWait
+	  * @param driver
+	  * @param element
+	  */
 	 public static void webDriverWait(WebDriver driver,WebElement element)
 	 {
 		WebDriverWait wait = new WebDriverWait(driver,20);
